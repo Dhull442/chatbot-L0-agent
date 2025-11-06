@@ -1,10 +1,10 @@
-### Context preserving Chat bot
+### Context preserving Chatbot
 - Chatbot preserving Context
 - uses openrouter
-- `streamlit run main.py`
+- Run using `streamlit run main.py`
 
 
 #### TODO:
-[] Add multi-chat functionality
-[] Context Modification / Branching
-[] Local History preservation
+- [ ] Add multi-chat functionality
+- [ ] Context Modification / Branching
+- [ ] Local History preservation
