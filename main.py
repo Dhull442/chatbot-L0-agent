@@ -73,7 +73,11 @@ if "llm" not in st.session_state:
     )
 if "chatgenerator" not in st.session_state:
     st.session_state.chatgenerator = ChatGenerator(st.session_state.llm)
-
+if st.button("reload"):
+    # Reset the context builder
+    st.session_state.context_builder = ContextBuilder(st.session_state.llm)
+    st.session_state.messages = []
+    st.rerun()
 chatgenerator = st.session_state.chatgenerator
 
 if userinput := st.chat_input("Have a question boi?"):
