@@ -1,7 +1,7 @@
 ### Context preserving Chatbot
 - Chatbot preserving Context
-- uses openrouter
-- Run using `streamlit run main.py`
+- uses gemma3 with ollama
+- `streamlit run main.py`
 
 
 #### TODO:
